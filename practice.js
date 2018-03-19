@@ -1,3 +1,5 @@
-// This is the beginning of algorithm practice as well as technical trivia.
-
 // Merge Sort
+
+const mergeSort = (array) => {
+
+}
