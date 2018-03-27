@@ -19,11 +19,24 @@ Each request is treated as standalone.
 
 ### Active Record
 
-Exists within the MVC framework of Rails. It is the *model* 
+Exists within the MVC framework of Rails. It is the *model* of the MVC framework. Follows the convention over configuration.
 
 ### What is ORM
 
+Object Relational Mapping is a technique to connect the objects in an application with the tables in a relational database. In Rails, Active Record is the ORM.
+
 ### What is an API
+
+Application Programming Interface:
+1) A part of the server that receives requests and sends responses.
+2) When you type in facebook.com, you send a request to the facebook server where the request interacts with the facebook API.
+3) GET request to '/cats' to a remote server and returns a list of all cats.
+
+### SQL and NoSQL
+
+SQL: Structured Query Language:
+
+NoSQL: non Structured Query Language:
 
 ### What is the JavaScript Event Loop?
 
@@ -49,3 +62,9 @@ input, it will always produce the same output.
 An object that holds the application's data
 ### State
 Data for our application to use
+
+## System Design
+
+### Design TinyURL (URL shortening service)
+
+#### Given a (typically) long URL, how would how would you design service that would generate a shorter and unique alias for it.
