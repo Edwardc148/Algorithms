@@ -38,6 +38,17 @@ SQL: Structured Query Language:
 
 NoSQL: non Structured Query Language:
 
+### What exists in the HTTP request and response
+Request:
+1) Method: (GET, POST, PATCH, PUT, DELETE)
+2) Path: ('/users/1')
+3) Query: '?loc=SF&...'
+4) Body: additional data
+
+Response:
+1) Status: '200 OK'
+2) Body
+
 ### What is the JavaScript Event Loop?
 
 JavaScript is based on a Stack and a Queue.
@@ -68,3 +79,33 @@ Data for our application to use
 ### Design TinyURL (URL shortening service)
 
 #### Given a (typically) long URL, how would how would you design service that would generate a shorter and unique alias for it.
+
+Important Questions to Ask:
+1) How do I generate an Unique ID for each URL?
+2) How to scale that to thousands of URLs?
+
+## Rails Project
+
+### Setup
+Commands:
+1) rails new 'project-name' -d postgresql // create the project
+2) bundle exec rails db:create // create the database
+3) gem 'better_errors', 'binding_of_caller', 'pry-rails' // add debugging gems
+
+### Flow
+When we send a HTTP request, the first thing it does is hit the rails router.
+It considers the path and method that is included in the HTTP request to determine
+where to send it off to.  What combination of paths and methods are associated with
+which controllers and which actions of those controllers.
+
+### Routes
+Check route and if the route matches, then it will initialize a new controller.
+The controller will then call the right action.
+
+Rails Routing:
+When the browser makes a request, it first hits the rails router which determines
+which controller will process the request and what action (method) it will call
+on the controller.
+
+### Controllers
+Responsible for one resource. The controller will fill out the HTTP response.
