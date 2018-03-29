@@ -105,7 +105,16 @@ The controller will then call the right action.
 Rails Routing:
 When the browser makes a request, it first hits the rails router which determines
 which controller will process the request and what action (method) it will call
-on the controller.
+on the controller. The controller will then go through the model to get some
+information from the database. It will then take that and either directly give
+back some information if it is just an API request (JSON) or it will go to the
+views and dynamically change.
+
+In routes.rb, it uses a DSL => Domain Specific Language to create the routes.
+
+Multiple ways to create the routes:
+get 'superheroes', to: 'superheroes#index'
+delete 'superheroes/:id', to: 'superheroes#destroy'
 
 ### Controllers
 Responsible for one resource. The controller will fill out the HTTP response.
