@@ -122,11 +122,13 @@ The '/:id' is a wild card and will match anything after the path.
 Migrations is a file that describes changes to a database.  It can create or drop tables,
 as well as adding or removing a column.
 
+Why use add_index => creates an ordered list which is a binary tree which gives the database
+a faster way to search for certain values in that column.
+
 A User Table:
--------------
 1) username: string
 2) password_digest: string
-3) 
+3) add_index (:table, :column, :constraints)
 
 ### Controllers
 Responsible for one resource. The controller will fill out the HTTP response.
