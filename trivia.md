@@ -115,6 +115,18 @@ In routes.rb, it uses a DSL => Domain Specific Language to create the routes.
 Multiple ways to create the routes:
 get 'superheroes', to: 'superheroes#index'
 delete 'superheroes/:id', to: 'superheroes#destroy'
+The '/:id' is a wild card and will match anything after the path.
+
+### Models
+
+Migrations is a file that describes changes to a database.  It can create or drop tables,
+as well as adding or removing a column.
+
+A User Table:
+-------------
+1) username: string
+2) password_digest: string
+3) 
 
 ### Controllers
 Responsible for one resource. The controller will fill out the HTTP response.
