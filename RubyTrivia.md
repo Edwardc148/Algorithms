@@ -52,3 +52,12 @@ Two major differences:
 1) Proc does not check for number of arguments, but lambdas do.
 2) Returns are different in lambdas. Lambda returns from the lambda, but Procs return
 from the calling method.
+
+### Rack
+It is a middleware that stands between web servers and web applications. It is used to
+communicate between the different available web servers as well application frameworks.
+
+### Ruby Gems
+It is a package manager (helps automate the installation/upgrading/configuring) of softwares
+used in Ruby that provides a standard format for distributing Ruby programs and libraries.
+Each gem consists of a: name, version, and platform.
