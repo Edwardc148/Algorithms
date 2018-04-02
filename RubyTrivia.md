@@ -61,3 +61,4 @@ communicate between the different available web servers as well application fram
 It is a package manager (helps automate the installation/upgrading/configuring) of softwares
 used in Ruby that provides a standard format for distributing Ruby programs and libraries.
 Each gem consists of a: name, version, and platform.
+Also contain: code, documentation, gemspec (purpose of gem)

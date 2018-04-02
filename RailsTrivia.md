@@ -1,3 +1,12 @@
+# Rails Trivia
+## Rails Asset Pipeline
+1) Concatenate (concats js and css files into one to make less requests)
+2) Minify (makes files smaller by removing comments and white space, and making var shorter)
+3) Preprocess (variables would be pre filled with values)
+Follows the tree in asset pipeline
+Application.js => add jQuery and minifies and preprocesses.
+
+
 ## Rails Project
 REMEMBER:
 Don't Repeat Yourself
