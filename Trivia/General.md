@@ -19,7 +19,10 @@ Each request is treated as standalone.
 
 ### Active Record
 
-Exists within the MVC framework of Rails. It is the *model* of the MVC framework. Follows the convention over configuration.
+Exists within the MVC framework of Rails. It is the *model* of the MVC framework. It is responsible for the business logic in your data. Follows the convention over configuration. Follows Active Record Pattern.
+
+### Active Record Pattern
+An approach to accessing data within a database. It wraps the table within a class so that each instance of that object refers to a row in the table.
 
 ### What is ORM
 

@@ -6,6 +6,13 @@
 Follows the tree in asset pipeline
 Application.js => add jQuery and minifies and preprocesses.
 
+https://medium.com/@adamzerner/rails-asset-pipeline-982f3ea75596
+
+## What is an engine?
+Rails feature gem. A minified rails application that must be ran inside another rails application.
+All engines are gems, but not all gems are engines.
+
+https://devblast.com/b/gems-vs-engines-know-the-difference
 
 ## Rails Project
 REMEMBER:
