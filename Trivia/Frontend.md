@@ -79,3 +79,6 @@
 - [Valid Parens](https://leetcode.com/problems/valid-parentheses/description/)
 
 ### That's all I can remember.
+
+
+No real overlap in the coding questions except for the more general trends of graph theory and looking for patterns in matrices. The overwhelmingly most common phone screen questions were 1) I type in google.com and 2) how do I speed up my slow website. Please do your own research even if I have parenthetical info. I'm by no means omniscient and different people will want you go into varying depths on the topic.
