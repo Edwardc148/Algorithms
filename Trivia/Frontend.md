@@ -1,4 +1,37 @@
+## React Life Cycles
+
+### Mounting
+#### Constructor
+Before mounting, it is used to create your initial state. Can also be used to bind event handlers.
+#### ComponentWillMount
+#### Render
+Should be pure and not affect state. Turns into DOM elements triggered by React.createElement and inserts into the DOM.
+#### ComponentDidMount
+This method is invoked after the component is mounted into the DOM. It is the ideal lifecycle method for requesting API
+endpoint requests.
+### Updating
+An update can be caused by a change in props or state.
+#### ComponentWillReceiveProps
+#### ShouldComponentUpdate
+Default before is to rerender after every state change. Compares props with the next state.
+#### ComponentWillUpdate
+
+#### ComponentDidUpdate
+
+### Unmounting
+#### ComponentWillUnmount
+
+### Error Handling
+#### ComponentDidCatch
+
+### SetState
+### ForceUpdate
+
 ## Phone Screens
+
+### What is the difference between smart and dumb components?
+
+
 
 - What is the difference between smart and dumb components (React)?
 
